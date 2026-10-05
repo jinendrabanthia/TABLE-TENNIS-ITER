@@ -1,0 +1,39 @@
+{
+  "name": "react-fullstack-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React frontend for the fullstack application",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "format": "prettier --write src"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
+    "@vitejs/plugin-react": "^4.4.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "globals": "^15.10.0",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.17.0",
+    "vite": "^5.3.1"
+  }
+}
